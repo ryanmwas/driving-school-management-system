@@ -10,5 +10,8 @@
             <li>{{ student.first_name }} {{ student.last_name}}</li>
             {% endfor %}
         </ul>
+        <a href="{% url 'add_student' %}">Add Student</a>
+        <a href="{% url 'login' %}">Login</a> 
 
     </body>
+</html>
